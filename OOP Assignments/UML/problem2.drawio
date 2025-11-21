@@ -1,0 +1,46 @@
+<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/142.0.0.0 Safari/537.36 Edg/142.0.0.0" version="29.0.3">
+  <diagram name="Page-1" id="1bDjuEVqRivcYsZVsyiv">
+    <mxGraphModel dx="902" dy="406" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="LRf3ud3d2Qo0Rzds0Rvu-1" value="Class Person" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="170" y="30" width="270" height="200" as="geometry" />
+        </mxCell>
+        <mxCell id="LRf3ud3d2Qo0Rzds0Rvu-2" value="+ name: String&lt;div&gt;+ problems: ArrayList&amp;lt;Problem&amp;gt;&lt;/div&gt;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" parent="LRf3ud3d2Qo0Rzds0Rvu-1" vertex="1">
+          <mxGeometry y="26" width="270" height="84" as="geometry" />
+        </mxCell>
+        <mxCell id="LRf3ud3d2Qo0Rzds0Rvu-3" value="" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;strokeColor=inherit;" parent="LRf3ud3d2Qo0Rzds0Rvu-1" vertex="1">
+          <mxGeometry y="110" width="270" height="8" as="geometry" />
+        </mxCell>
+        <mxCell id="LRf3ud3d2Qo0Rzds0Rvu-4" value="- addToProblem(): void&lt;div&gt;- SolveProblem(problem,): void&lt;/div&gt;&lt;div&gt;-showAllProblems():ArrayList&amp;lt;Problem&amp;gt;&lt;/div&gt;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" parent="LRf3ud3d2Qo0Rzds0Rvu-1" vertex="1">
+          <mxGeometry y="118" width="270" height="82" as="geometry" />
+        </mxCell>
+        <mxCell id="LRf3ud3d2Qo0Rzds0Rvu-13" value="Class Problem" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="510" y="30" width="270" height="220" as="geometry" />
+        </mxCell>
+        <mxCell id="LRf3ud3d2Qo0Rzds0Rvu-14" value="- name: String&lt;div&gt;- type: ProblemType&lt;/div&gt;&lt;div&gt;- status: boolean&lt;/div&gt;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" parent="LRf3ud3d2Qo0Rzds0Rvu-13" vertex="1">
+          <mxGeometry y="26" width="270" height="84" as="geometry" />
+        </mxCell>
+        <mxCell id="LRf3ud3d2Qo0Rzds0Rvu-15" value="" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;strokeColor=inherit;" parent="LRf3ud3d2Qo0Rzds0Rvu-13" vertex="1">
+          <mxGeometry y="110" width="270" height="8" as="geometry" />
+        </mxCell>
+        <mxCell id="LRf3ud3d2Qo0Rzds0Rvu-16" value="&lt;div&gt;+getName(): String&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;+getType():ProblemType&lt;/span&gt;&lt;/div&gt;&lt;div&gt;+setProblemStatus(boolean):void&lt;/div&gt;&lt;div&gt;+ getProblemStatus():boolean&lt;/div&gt;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" parent="LRf3ud3d2Qo0Rzds0Rvu-13" vertex="1">
+          <mxGeometry y="118" width="270" height="102" as="geometry" />
+        </mxCell>
+        <mxCell id="hOOuYxeyWeF4YsTkvkrq-1" value="&amp;lt;&amp;lt;enumerations&amp;gt;&amp;gt;&lt;div&gt;ProblemType&lt;/div&gt;" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=60;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="320" y="270" width="270" height="150" as="geometry" />
+        </mxCell>
+        <mxCell id="hOOuYxeyWeF4YsTkvkrq-2" value="FINANCIAL&lt;div&gt;SPIRITUAL&lt;/div&gt;&lt;div&gt;EDUCATIONAL&lt;/div&gt;&lt;div&gt;BUSINESS&lt;/div&gt;&lt;div&gt;TECHNICAL&lt;/div&gt;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" parent="hOOuYxeyWeF4YsTkvkrq-1" vertex="1">
+          <mxGeometry y="60" width="270" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="U0hk9zp8O7vPHL9hXB9I-1" value="" style="endArrow=open;endFill=1;endSize=12;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="160" relative="1" as="geometry">
+            <mxPoint x="440" y="143.5" as="sourcePoint" />
+            <mxPoint x="510" y="143.5" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
