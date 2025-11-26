@@ -4,4 +4,6 @@ public class NonLivingThing extends Thing{
 		super(weight);
 
 	}
+
+
 }
